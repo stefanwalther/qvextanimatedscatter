@@ -1,0 +1,12 @@
+﻿http://vallandingham.me/vis/movie/
+
+// Original Idea + Code
+// http://bost.ocks.org/mike/nations/
+
+// Some Improvements
+// http://dexvis.com/vis/MotionChartDemo3.html
+// http://dexvis.com/vis/timelapse1.html
+// http://dexvis.com/doku.php
+// http://www.javainc.com/projects/dex/examples/vis/d3/timelapse/ImportsAndExports.html
+
+// http://vallandingham.me/vis/movie/

@@ -1,0 +1,70 @@
+﻿/*#chart {
+  margin-left: -40px;
+  height: 506px;
+}*/
+
+.chart {
+    padding-left:30px;
+    float:left;
+    position:absolute;
+    width: 100%;
+    clear:both;
+}
+
+text {
+  font: 10px sans-serif;
+}
+
+.dot {
+  stroke: #000;
+}
+
+.axis path, .axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.label {
+  fill: #777;
+}
+
+.year.label {
+  /*font: 500 196px "Helvetica Neue";*/
+  /*font: 500 196px "Helvetica Neue";*/
+  font-family: "Helvetica Neue", Helvetica, Arial, 'DejaVu Sans', 'Liberation Sans', Freesans, sans-serif;
+  fill: #ddd;
+}
+
+.year.label.active {
+  fill: #aaa;
+}
+
+.overlay {
+  fill: none;
+  pointer-events: all;
+  cursor: ew-resize;
+}
+
+/* Replay Button */
+.replayButton {
+
+    float:right;
+    width:50px;
+    clear:both;
+    margin-right:10px;
+    margin-top:10px;
+    margin-bottom:0px;
+
+    font: bold 11px Arial;
+    color: BLUE;
+    display:inline;
+
+    cursor:hand;
+    cursor:pointer;
+}
+
+.replayButton:hover {
+    text-decoration:underline;
+}
+

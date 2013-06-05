@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ExtensionObject Label="D3 Animated Scatter Chart" Path="D3AnimatedScatterChart" Description="" Type="object" PageHeight="100000" PageWidth="100000">
+
+
+  <Dimension Label="Country" TargetName="Dimension Name" Initial="" />
+  <Dimension Label="Region" TargetName="Dimension Name" Initial="" />
+  <Dimension Label="Year" Targetname="Dimension Name" Initial="" />
+
+  
+  <!-- X Axis -->
+  <Measurement Label="X-Axis (Income)" Initial="" />
+  <Text Label="X Axis Label:" Type="text" />                                                      <!-- 0 -->
+  <Text Label="X Axis Type:" Type="select" Select="lin,log" SelectLabel="Linear,Logarithmic" />   <!-- 1 -->
+
+  <!-- Y Axis -->
+  <Measurement Label="Y-Axis (Life)" Initial="" />
+  <Text Label="Y Axis Label:" Type="text" />                                                      <!-- 2 -->
+  <Text Label="Y Axis Type:" Type="select" Select="lin,log" SelectLabel="Linear,Logarithmic" />   <!-- 3 -->
+  
+  <!-- Layout Options -->
+  <!-- 4 -->
+  <Text Label="Year Size" Type="select" Select="20,30,40,50,60,70,80,90,100,120,140,160,180,200" SelectLabel="20,30,40,50,60,70,80,90,100,120,140,160,180,200" />
+  
+  <!-- 5 -->
+  <Text Label="Size X Axis Label" Type="select" Select="10,12,14,16,18" SelectLabel="10,12,14,16,18" />
+  <Text Label="Size Y Axis Label" Type="select" Select="10,12,14,16,18s" SelectLabel="10,12,14,16,18" />
+  
+  <!-- 7 -->
+  <Text Label="X Max" Type="text" />
+  <Text Label="Y Max" Type="text" />
+
+  <!-- 9 -->
+  <Text Label="Transition Duration" Type="text" />
+  
+  <!-- 10 -->
+  <Text Label="Show Replay Button" Type="checkbox" />
+
+  <Measurement Label="Bubble Size" Initial="" />
+
+
+  <!--<Initiate Name="Chart.Dimension.0.Field" Value="Country" />-->
+  <!--<Initiate Name="Chart.Dimension.1.Field" Value="Region" />-->
+  <!--<Initiate Name="Chart.Dimension.2.Field" Value="Year" />-->
+  <!--<Initiate Name="Chart.Expression.0.0.Definition" Value="=Sum(Income)" />-->
+  <!--<Initiate Name="Chart.Expression.1.0.Definition" Value="=Sum(LifeExpectency)" />-->
+  <!--<Initiate Name="Chart.Expression.2.0.Definition" Value="=Sum(Population)" />-->
+  <Initiate Name="Chart.Text.0.Content" Value="X-Axis Label" />
+  <Initiate Name="Chart.Text.1.Content" Value="lin" />
+  <Initiate Name="Chart.Text.2.Content" Value="Y-Axis Label" />
+  <Initiate Name="Chart.Text.3.Content" Value="lin" />
+  <Initiate Name="Chart.Text.4.Content" Value="80" />
+  <Initiate Name="Chart.Text.5.Content" Value="10" />
+  <Initiate Name="Chart.Text.6.Content" Value="10" />
+  <Initiate Name="Chart.Text.7.Content" Value="0" />
+  <Initiate Name="Chart.Text.8.Content" Value="0" />
+  <Initiate Name="Chart.Text.9.Content" Value="10000" />
+  <Initiate Name="Chart.Text.10.Content" Value="1" />
+
+
+  <PropertiesPage Version="11" File="Properties.qvpp" />
+
+
+</ExtensionObject>
+

@@ -1,0 +1,18 @@
+﻿// ------------------------------------------------------------------
+// Libraries used
+// ------------------------------------------------------------------
+Charting Library:
+	-	D3js.org (http://opensource.org/licenses/BSD-3-Clause)
+
+Basic Solution:
+	-	All credits go to Michael Bostock (http://bost.ocks.org/mike/) and his solution on 
+		http://bost.ocks.org/mike/nations/
+
+
+
+// ------------------------------------------------------------------
+// Icons used:
+// ------------------------------------------------------------------
+
+Icon set(s) used for this solution:
+	-	"Batch Icons" by Adam Whitcroft (http://adamwhitcroft.com/batch/)

@@ -1,0 +1,176 @@
+﻿<div class="ToolWindow-MainBody" avq="foldOutMenu:." style="overflow: visible !important; float: left;">
+  <div class="prop-accordion" avq="accordion:.">
+    <h3 class="prop-h3 accordion-shadow">
+      <a href="#">
+        Animated Scatter Chart - Data Options
+      </a>
+    </h3>
+    <div class="prop-grid_container accordion-shadow-enabler" style="overflow:auto;">
+      <div class="prop-grid_clear prop-grid_top-vertical-spacer-12px prop-grid_last"></div>
+
+      <div class='prop-grid_clear prop-grid_prepend-1 prop-grid_span-5' avq='prop_label'>Prim. Dimension:</div>
+      <div class='prop-grid_span-10 prop-grid_last'>
+        <div class='prop-grid_span-7' avq='prop_dynamicDropdown:.Chart.Dimension.0.Field'></div>
+        <div class='prop-width-28px' propicontype='tool' avq='prop_dlgbuttonjqui:.Chart.Dimension.0:ExtensionDimDialog.qvpp'></div>
+      </div>
+      <br />
+      <div class='prop-grid_clear prop-grid_prepend-1 prop-grid_span-5' avq='prop_label'>Dim. Grouping:</div>
+      <div class='prop-grid_span-10 prop-grid_last'>
+        <div class='prop-grid_span-7' avq='prop_dynamicDropdown:.Chart.Dimension.1.Field'></div>
+        <div class='prop-width-28px' propicontype='tool' avq='prop_dlgbuttonjqui:.Chart.Dimension.1:ExtensionDimDialog.qvpp'></div>
+      </div>
+      <br />
+      <div class='prop-grid_clear prop-grid_prepend-1 prop-grid_span-5' avq='prop_label'>Year</div>
+      <div class='prop-grid_span-10 prop-grid_last'>
+        <div class='prop-grid_span-7' avq='prop_dynamicDropdown:.Chart.Dimension.2.Field'></div>
+        <div class='prop-width-28px' propicontype='tool' avq='prop_dlgbuttonjqui:.Chart.Dimension.2:ExtensionDimDialog.qvpp'></div>
+      </div>
+      <br />
+      
+      <div class='prop-grid_clear prop-grid_prepend-1 prop-grid_span-5' avq='prop_label'>X-Axis Measure:</div>
+      <div class='prop-grid_span-10 prop-grid_last'>
+        <div class='prop-grid_span-7 prop-grid_last' style='width:94%;' avq='prop_editexpression:.Chart.Expression.0.0.Definition'></div>
+      </div>
+      <br />
+      <div class='prop-grid_clear prop-grid_prepend-1 prop-grid_span-5' avq='prop_label'>X Axis Label:</div>
+      <div class='prop-grid_span-10 prop-grid_last'>
+        <div class='popup-grid_span-7 popup-grid_last' style='width:94%;' avq='prop_editexpression:.Chart.Text.0.Content'></div>
+      </div>
+      <br />
+      <div class='prop-grid_clear prop-grid_prepend-1 prop-grid_span-5' avq='prop_label'>X Axis Type:</div>
+      <div class='prop-grid_span-10 prop-grid_last'>
+        <select style='width:94%;padding-bottom:2px;padding-top:2px;padding-right:2px;padding-left:2px;' avq='mySelect:.Chart.Text.1.Content'>
+          <option value='lin'>Linear</option>
+          <option value='log'>Logarithmic</option>
+        </select>
+      </div>
+      <br />
+
+
+      <div class='prop-grid_clear prop-grid_prepend-1 prop-grid_span-5' avq='prop_label'>Y-Axis Measure:</div>
+      <div class='prop-grid_span-10 prop-grid_last'>
+        <div class='prop-grid_span-7 prop-grid_last' style='width:94%;' avq='prop_editexpression:.Chart.Expression.1.0.Definition'></div>
+      </div>
+      <br />
+      <div class='prop-grid_clear prop-grid_prepend-1 prop-grid_span-5' avq='prop_label'>Y Axis Label:</div>
+      <div class='prop-grid_span-10 prop-grid_last'>
+        <div class='popup-grid_span-7 popup-grid_last' style='width:94%;' avq='prop_editexpression:.Chart.Text.2.Content'></div>
+      </div>
+      <br />
+
+      <div class='prop-grid_clear prop-grid_prepend-1 prop-grid_span-5' avq='prop_label'>Y Axis Type:</div>
+      <div class='prop-grid_span-10 prop-grid_last'>
+        <select style='width:94%;padding-bottom:2px;padding-top:2px;padding-right:2px;padding-left:2px;' avq='mySelect:.Chart.Text.3.Content'>
+          <option value='lin'>Linear</option>
+          <option value='log'>Logarithmic</option>
+        </select>
+      </div>
+      <br/>
+
+
+      <div class='prop-grid_clear prop-grid_prepend-1 prop-grid_span-5' avq='prop_label'>Bubble Size</div>
+      <div class='prop-grid_span-10 prop-grid_last'>
+        <div class='prop-grid_span-7 prop-grid_last' style='width:94%;' avq='prop_editexpression:.Chart.Expression.2.0.Definition'></div>
+      </div>
+      <br />
+
+    </div>
+
+    <h3 class="prop-h3 accordion-shadow">
+      <a href="#">
+        Chart Layout &amp; Behavior
+      </a>
+    </h3>
+    <div class="prop-grid_container accordion-shadow-enabler" style="overflow:auto;height:300px;">
+
+      <div class="prop-grid_clear prop-grid_top-vertical-spacer-12px prop-grid_last"></div>
+
+      <div class='prop-grid_clear prop-grid_prepend-1 prop-grid_span-5' avq='prop_label'>X-Axis Maximum:</div>
+      <div class='prop-grid_span-10 prop-grid_last'>
+        <div class='popup-grid_span-9 popup-grid_span-1' style='width:94%;' avq='prop_editexpression:.Chart.Text.7.Content'></div>
+      </div>
+
+      <div class='prop-grid_clear prop-grid_prepend-1 prop-grid_span-5' avq='prop_label'>Y-Axis Maximum:</div>
+      <div class='prop-grid_span-10 prop-grid_last'>
+        <div class='popup-grid_span-9 popup-grid_span-1' style='width:94%;' avq='prop_editexpression:.Chart.Text.8.Content'></div>
+      </div>
+      
+      <div class='prop-grid_clear prop-grid_prepend-1 prop-grid_span-5' avq='prop_label'>Year Size:</div>
+      <div class='prop-grid_span-10 prop-grid_last'>
+        <select style='width:40%;padding-bottom:2px;padding-top:2px;padding-right:2px;padding-left:2px;' avq='mySelect:.Chart.Text.4.Content'>
+          <option value='20'>20</option>
+          <option value='30'>30</option>
+          <option value='40'>40</option>
+          <option value='50'>50</option>
+          <option value='60'>60</option>
+          <option value='70'>70</option>
+          <option value='80'>80</option>
+          <option value='90'>90</option>
+          <option value='100'>100</option>
+          <option value='120'>120</option>
+          <option value='140'>140</option>
+          <option value='160'>160</option>
+          <option value='180'>180</option>
+          <option value='200'>200</option>
+        </select> Pixel
+      </div>
+      <br />
+
+      <div class='prop-grid_clear prop-grid_prepend-1 prop-grid_span-5' avq='prop_label'>X-Label Font Size:</div>
+      <div class='prop-grid_span-10 prop-grid_last'>
+        <select style='width:40%;padding-bottom:2px;padding-top:2px;padding-right:2px;padding-left:2px;' avq='mySelect:.Chart.Text.5.Content'>
+          <option value='8'>8</option>
+          <option value='9'>9</option>
+          <option value='10'>10</option>
+          <option value='12'>12</option>
+          <option value='14'>14</option>
+          <option value='16'>16</option>
+        </select> Pixel
+      </div>
+      <br />
+
+      <div class='prop-grid_clear prop-grid_prepend-1 prop-grid_span-5' avq='prop_label'>Y-Label Font Size:</div>
+      <div class='prop-grid_span-10 prop-grid_last'>
+        <select style='width:40%;padding-bottom:2px;padding-top:2px;padding-right:2px;padding-left:2px;' avq='mySelect:.Chart.Text.6.Content'>
+          <option value='8'>8</option>
+          <option value='9'>9</option>
+          <option value='10'>10</option>
+          <option value='12'>12</option>
+          <option value='14'>14</option>
+          <option value='16'>16</option>
+        </select> Pixel
+      </div>
+      <br />
+
+      <div class='prop-grid_clear prop-grid_prepend-1 prop-grid_span-5' avq='prop_label'>Transition:</div>
+      <div class='prop-grid_span-10 prop-grid_last'>
+        <div class='popup-grid_span-4 popup-grid_span-1' avq='prop_editexpression:.Chart.Text.9.Content'></div>
+        <div class='popup-grid_span-4 pop-grid_span-1 prop-grid_last' style='padding-top:8px;'>Duration in ms</div>
+      </div>
+      <br/>
+
+      <div class="prop-grid_clear prop-grid_top-vertical-spacer-12px prop-grid_last"></div>
+      <div class='prop-grid_clear prop-grid_prepend-1'>
+        <div class='prop-grid_span-1'></div>
+        <div class='prop-grid_span-1' avq='prop_checkbox:.Chart.Text.10.Content'></div>
+        <div class='prop-grid_span-7 prop-grid_last' avq='prop_label'>Show Replay Button</div>
+      </div>
+
+
+    </div>
+    
+    <h3 class="prop-h3 accordion-shadow" avq="activeAccordionHeader:.:GenericPresentationFoldout.qvpp">
+      <a href="#">Presentation</a>
+    </h3>
+    <div class="prop-grid_container accordion-shadow-enabler" style="height:300px;" avq="panel::Layout.qvpp"></div>
+    <h3 class="prop-h3 accordion-shadow" avq="activeAccordionHeader::PropertiesCaptionFoldout.qvpp">
+      <a href="#">Caption</a>
+    </h3>
+    <div class="prop-grid_container accordion-shadow-enabler" avq="panel::Caption.qvpp"></div>
+    <h3 class="prop-h3 accordion-shadow" avq="activeAccordionHeader:.:PropertiesOptionsFoldout.qvpp">
+      <a href="#">Options</a>
+    </h3>
+    <div class="prop-grid_container accordion-shadow-enabler" avq="panel::Options.qvpp"></div>
+  </div>
+  <span class="bottom-gap"></span>
+</div>
