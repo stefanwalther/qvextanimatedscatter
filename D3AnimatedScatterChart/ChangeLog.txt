@@ -1,2 +1,5 @@
-﻿===== v1.0.0 - 06/05/2013 =====
+﻿===== v1.0.1 - 11/08/2013 =====
+bugfix	Fixed an issue that empty values in rows can prevent rendering at all ....
+
+===== v1.0.0 - 06/05/2013 =====
 * Release: Initial Release v1.0.0

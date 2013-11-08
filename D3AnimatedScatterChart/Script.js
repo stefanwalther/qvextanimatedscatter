@@ -60,7 +60,11 @@
                     var x = parseFloat(_this.Data.Rows[i][3].data);
                     var size = parseFloat(_this.Data.Rows[i][5].data);
                     var y = parseFloat(_this.Data.Rows[i][4].data);
-                    
+
+                    if (!isNumber(x) || !isNumber(y)) {
+                        continue;
+                    }
+
                     var xArray = [];
                     xArray.push(year);
                     xArray.push(x);
@@ -168,7 +172,7 @@
                     }
                     for (j = 0; j < data[i].y.length; j++) {
                         yMax = Math.max(yMax, data[i].y[j][1]);
-                        yMin = Math.min(yMin, data[i].x[j][1]);
+                        yMin = Math.min(yMin, data[i].y[j][1]);
                     }
                     for (j = 0; j < data[i].size.length; j++) {
                         sizeMax = Math.max(sizeMax, data[i].size[j][1]);
